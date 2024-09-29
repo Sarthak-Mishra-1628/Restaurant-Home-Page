@@ -13,11 +13,8 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 auto; */
-    /* max-width: 1200px; */
     max-width: 100vw;
     padding: 10px 100px;
-
     position: sticky;
     top: 0; 
     background-color: white; 
@@ -28,7 +25,6 @@ html,body{
 
 .container{
     margin: 0 auto;
-    /* max-width: 1200px; */
     max-width: 100vw;
 }
 
@@ -49,7 +45,6 @@ html,body{
 .all{
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     flex-wrap: wrap;
     gap: 20px;
 
@@ -61,7 +56,6 @@ html,body{
     align-self: flex-start;
     padding: 10px 15px;
     color: white;
-    /* text-align: center; */
     font-weight: bold;
 }
 
@@ -98,7 +92,6 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* max-width: 2000px; */
     gap: 20px;
 }
 
@@ -113,7 +106,6 @@ html,body{
 .same{
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
 }
 
 .same p{
@@ -179,13 +171,11 @@ footer{
     background-color: bisque;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
 }
 
 .common{
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
 }
 
 h5{
@@ -217,7 +207,6 @@ input{
     }
 
     .all{
-        /* display: flex; */
         justify-content: center;
         align-items: center;
         text-align: center;
